@@ -77,8 +77,8 @@ st.pyplot(fig2)
 st.markdown("---")
 st.markdown("#### Insight Utama:")
 st.info("""
-- **Kepuasan Pelanggan:** Terjadi sedikit penurunan skor rating pada tahun 2018 dibandingkan tahun sebelumnya.
-- **Tren Operasional:** Terjadi penurunan signifikan pada jumlah order di bulan September.
+- **Pertanyaan Bisnis 1:** Terjadi sedikit penurunan skor rating pada tahun 2018 dibandingkan tahun sebelumnya.
+- **Pertanyaan Bisnis 2:** Terjadi penurunan signifikan pada jumlah order di bulan September.
 """)
 
 st.caption('Copyright (C) Indira Putri Dewi Prisanti 2026')
