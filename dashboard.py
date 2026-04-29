@@ -158,7 +158,6 @@ with col_left:
         )
         fig_dist = px.bar(
             dist_df, x="Skor", y="Jumlah Review",
-            color="Skor",
             color_discrete_sequence=["#0d3b8c"],
             text="Jumlah Review",
             title=f"Distribusi Rating {year_selected}",
@@ -208,7 +207,7 @@ yearly_score = (
 fig_yoy = px.bar(
     yearly_score, x="Tahun", y="Rata-rata Score",
     color="Rata-rata Score",
-    color_continuous_scale="blues",
+    color_discrete_sequence=["#0d3b8c"],
     text="Rata-rata Score",
     range_y=[0, 5],
     title="Rata-Rata Skor Per Tahun",
