@@ -159,7 +159,7 @@ with col_left:
         fig_dist = px.bar(
             dist_df, x="Skor", y="Jumlah Review",
             color="Skor",
-            color_continuous_scale="viridis",
+            color_discrete_sequence=["#0d3b8c"],
             text="Jumlah Review",
             title=f"Distribusi Rating {year_selected}",
         )
